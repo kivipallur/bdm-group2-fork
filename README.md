@@ -7,9 +7,9 @@ Project [Big Data](https://courses.cs.ut.ee/2025/bdm/spring/Main/HomePage) is pr
 Students: **[Rene Puusepp, Swagata Datta, Shailaja Mahara, Muhammad Sohaib Anwar]**
 
 ## Queries 
-
+visible in project1 notebook
 ## Requirements
-
+notebook includes all installation commands (shapely)
 ## Note for Students
 
 * Clone the created repository offline;
