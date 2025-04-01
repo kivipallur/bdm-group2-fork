@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  pyspark:
+    image: quay.io/jupyter/pyspark-notebook:spark-3.5.3
+    container_name: pyspark_project3
+    command: start-notebook.sh --NotebookApp.token=''
+    ports:
+      - "8888:8888"  # Jupyter Notebook
+      - "4040:4040"  # Spark UI
+    volumes:
+      - "./mnt/:/home/jovyan/"  # Mount your data/code into the container
